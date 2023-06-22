@@ -1,13 +1,13 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 /* header section */
 
 header {
   height: 50px;
-  background-color: black;
   color: white;
   display: flex;
   justify-content: flex-end;
@@ -24,26 +24,26 @@ header {
 /* main section */
 
 main {
-  height: 100vh;
   margin: auto;
-  background-color: black;
+  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  overflow: scroll;
-  overflow: hidden;
+  overflow: auto;
+  over
+  scroll-behavior: smooth;
 }
 
 img {
-  margin: 10px;
+  margin: 5px;
 }
 
 .img-div {
-  width: 450px;
-  height: 300px;
-  background-image: url(https://picsum.photos/450/300);
+  width: 250px;
+  height: 200px;
+  background-image: url(https://picsum.photos/250/200);
   position: relative;
-  margin: 15px;
+  margin: 5px;
 }
 
 .img-span {
@@ -61,16 +61,17 @@ footer {
   display: flex;
   justify-content: space-between;
   color: white;
-  background-color: black;
+  background-color: rgb(45, 45, 45);
   text-align: center;
   align-items: center;
   height: 100px;
+  margin-top: 50px;
 }
 
 .span-footer {
   display: inline-block;
   font-size: 1.5rem;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .green {
@@ -84,4 +85,9 @@ footer {
   display: flex;
   align-items: center;
   padding: 0px 20px;
+}
+
+.footer-align{
+  display: flex;
+  align-items: center; 
 }
