@@ -25,13 +25,11 @@ header {
 
 main {
   margin: auto;
-  height: 100vh;
+  height: calc(100vvh - 150px);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  overflow: auto;
-  over
-  scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 img {
@@ -87,7 +85,7 @@ footer {
   padding: 0px 20px;
 }
 
-.footer-align{
+.footer-align {
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
